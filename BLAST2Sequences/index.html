@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+
+    <title>BLAST 2 Sequences</title>
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/blast.css">
+
+</head>
+
+<body>
+     <div class="header">
+        <div class="inner_header">
+            <div class="logo">
+                <h1>BLAST <span>2 Sequences</span></h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="mailto:gspreng2@jhu.edu"><li>Contact</li></a>
+            </ul>
+        </div>
+    </div>
+    
+    <br><br>
+
+    <div class="query_container">
+        <form id="blast_seq" action="blast.cgi" method="post">
+            <label for="program">Choose Program: </label>
+            <select name="program" id="program">
+                <option value="blastn">blastn</option>
+                <option value="blastp">blastp</option>
+                <option value="tblastn">tblastn</option>
+                <option value="tblastx">tblastx</option>
+                <option value="blastx">blastx</option>
+            </select>
+
+            <hr>  
+
+            <h3>Sequence 1: </h3><p>Enter sequence in FASTA format.</p>
+            <br>
+            <textarea id="query1" name="query1" rows="6" cols="60" placeholder=">First_sequence ACTCATG"></textarea>
+
+            <br><br>
+
+            <h3>Sequence 2: </h3><p>Enter sequence in FASTA format.</p>
+            <br>
+            <textarea id="query2" name="query2" rows="6" cols="60" placeholder=">Second_sequence ACTCATG"></textarea>
+            <br><br>
+
+            <input type="checkbox" name="save" value="off">
+            <label for="save">Save Alignment</label>
+            <br><br>
+
+            <input type="submit" value="Align">
+            <input type="reset" value="Clear Sequences">
+
+        
+
+        </form>
+
+        <br><br><br>
+    
+        <hr>
+
+        <form action="results_search.cgi" method="post">
+            <label for="results">Previous Analyses: </label>
+            <input class="search" name="search" id="search" type="search" placeholder="Enter accession of previous analysis" />
+        
+            <input type="submit" value="Submit">
+    
+    
+        </form>
+    </div>  
+</body>
+
+</html>
