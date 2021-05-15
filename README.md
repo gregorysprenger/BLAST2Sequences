@@ -1,5 +1,3 @@
-# blast-recreation
-
 BLAST 2 Sequences
 
 by Gregory Sprenger
