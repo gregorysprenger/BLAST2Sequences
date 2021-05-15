@@ -4,27 +4,27 @@ BLAST 2 Sequences
 
 by Gregory Sprenger
 
-** Description **
-	This is a front-end website for the NCBI BLAST tool called BLAST 2 Sequences, or bl2seq. This tool is used to identify similarities between two sequences and give various results on the matches between the sequences.
+** Description **  
+        This is a front-end website for the NCBI BLAST tool called BLAST 2 Sequences, or bl2seq. This tool is used to identify similarities between two sequences and give various results on the matches between the sequences.
 
 
-Source code can be found here:
-	http://bfx3.aap.jhu.edu/gspreng2/BLAST2Sequences.tar.gz
-	OR
-	https://github.com/gsprenger56/blast-recreation/raw/main/BLAST2Sequences.tar.gz
+Source code can be found here:  
+        http://bfx3.aap.jhu.edu/gspreng2/BLAST2Sequences.tar.gz
+        OR
+        https://github.com/gsprenger56/blast-recreation/raw/main/BLAST2Sequences.tar.gz
 
 
-A demo can be found here:
-	http://bfx3.aap.jhu.edu/gspreng2/final/index.html
+A demo can be found here:  
+        http://bfx3.aap.jhu.edu/gspreng2/final/index.html
 
 
-The bl2seq tool can be found here:
-	https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy.NOTSUPPORTED/2.2.26/blast-2.2.26-x64-linux.tar.gz
+The bl2seq tool can be found here:  
+        https://ftp.ncbi.nlm.nih.gov/blast/executables/legacy.NOTSUPPORTED/2.2.26/blast-2.2.26-x64-linux.tar.gz
 
-
-More information on bl2seq can be found within the 'doc' folder that is inside the above tar.gz file.
-
-** Requirements **
+  
+More information on bl2seq can be found within the 'doc' folder that is inside the above tar.gz file.  
+  
+** Requirements **  
 	
 	- Download BLAST2Sequences.tar.gz and extract
 		- Contains BLAST tools, including bl2seq version 2.2.26
@@ -41,8 +41,8 @@ More information on bl2seq can be found within the 'doc' folder that is inside t
 			- Import MySQL file: mysql -u username -p new_database < BLAST2Sequences_dump.sql
 
 
-** Usage **
-
+** Usage **  
+  
 
 1. Load index.html and choose which program to use (blastn, blastp, tblastn, tblastx, blastx).
 
