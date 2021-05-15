@@ -61,3 +61,7 @@ More information on bl2seq can be found within the 'doc' folder that is inside t
 6. To view analyses saved to MySQL database, begin entering the AccessionNumber (from example in Step 2). A drop down menu will appear. Select the analysis you would like to view.
 
 7. Press 'Submit'.
+
+
+![image](https://user-images.githubusercontent.com/42686628/118379950-1a926d80-b5a4-11eb-86e6-bd37b008bfcc.png)
+
