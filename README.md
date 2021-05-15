@@ -46,7 +46,7 @@ More information on bl2seq can be found within the 'doc' folder that is inside t
 
 1. Load index.html and choose which program to use (blastn, blastp, tblastn, tblastx, blastx).
 
-2. Enter FASTA sequence into each sequence text area. It is recommended to title each, such as:
+2. Enter FASTA sequence into each sequence text area. It is recommended to title each, such as:  
         ">AccessionNumber  
          ACTCATG"
 
