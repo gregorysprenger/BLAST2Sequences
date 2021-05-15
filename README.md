@@ -4,6 +4,8 @@ BLAST 2 Sequences
 
 by Gregory Sprenger
 
+![image](https://user-images.githubusercontent.com/42686628/118379950-1a926d80-b5a4-11eb-86e6-bd37b008bfcc.png)
+
 ** Description **  
         This is a front-end website for the NCBI BLAST tool called BLAST 2 Sequences, or bl2seq. This tool is used to identify similarities between two sequences and give various results on the matches between the sequences.
 
@@ -62,6 +64,4 @@ More information on bl2seq can be found within the 'doc' folder that is inside t
 
 7. Press 'Submit'.
 
-
-![image](https://user-images.githubusercontent.com/42686628/118379950-1a926d80-b5a4-11eb-86e6-bd37b008bfcc.png)
 
