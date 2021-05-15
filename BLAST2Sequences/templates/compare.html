@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Stored BLAST results</title>
+    <link rel="stylesheet" type="text/css" href="css/blast.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner_header">
+            <div class="logo">
+                <h1>BLAST <span>2 Sequences</span></h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="mailto:gspreng2@jhu.edu"><li>Contact</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="centered-text">
+        <h5 class="sequences">Sequence 1: </h5><p>{{ sequence_one }}</p>
+
+        <br><br>
+
+        <h5 class="sequences">Sequence 2: </h5><p>{{ sequence_two }}</p>
+        
+
+        {% for i in range(length) %}
+        
+        <br><br>
+            {% if score[i] != '' %}
+                 
+            <pre>
+                Score = {{ score[i] }}
+                <br>
+                Identities = {{ identities[i] }}
+                <br>
+                Strand = {{ strand[i] }}
+            </pre>
+
+            
+            {% endif %}
+        <br>
+
+        <pre>Query: {{ query[i] }}</pre>
+        <pre class="matches">{{ match[i] }}</pre>
+        <pre>Sbjct: {{ subject[i] }}</pre>
+        
+        <br>
+
+        <hr>
+
+        {% endfor %}
+    </div>
+</body>
+</html>
