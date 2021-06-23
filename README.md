@@ -9,13 +9,7 @@ by Gregory Sprenger
 
 
 Source code can be found here:  
-        http://bfx3.aap.jhu.edu/gspreng2/BLAST2Sequences.tar.gz
-        OR
         https://github.com/gsprenger56/blast-recreation/raw/main/BLAST2Sequences.tar.gz
-
-
-A demo can be found here:  
-        http://bfx3.aap.jhu.edu/gspreng2/final/index.html
 
 
 The bl2seq tool can be found here:  
